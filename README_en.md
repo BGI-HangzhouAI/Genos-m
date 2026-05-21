@@ -46,7 +46,7 @@ The Genos-m pre-training corpus was constructed through hierarchical data curati
 
 We evaluated Genos-m with a representation-to-task benchmark spanning local sequences, regional long-context sequences, and whole genomes. We also assessed zero-shot RNA sequence transfer, mechanistic interpretability, and task-level applications. Genos-m performs consistently across these multi-scale benchmarks and, despite its smaller activated parameter count, achieves performance comparable to or better than large general-purpose DNA models such as Evo2-40B on several tasks. In downstream applications, Genos-m improves cross-cohort colorectal cancer classification by providing genome sequence representations for species features in an abundance-based model. It also supports stable sample-level representations from low-depth metagenomic data, suggesting utility for disease-risk modeling and metagenomic representation learning.
 
-We release Genos-m as an open-source foundation platform with model weights, training and inference code, standardized benchmarks, and deployable inference components. The release is intended to support reproducible, evaluable, and scalable model reuse, benchmarking, and method development in local or cloud environments.
+We release Genos-m weights, training and inference code and standardized benchmarks. The release is intended to support reproducible, evaluable, and scalable model reuse, benchmarking, and method development.
 
 <a id="model-and-data"></a>
 
