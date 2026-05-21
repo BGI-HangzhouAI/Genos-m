@@ -4,7 +4,7 @@
 
 ![genos_m_concept_v1.png](images/genos_m_concept_v1.png)
 
-[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Genos--m--4.7B-yellow?logo=huggingface)](https://huggingface.co/BGI-HangzhouAI/Genos-m-4.7B)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Genos--m-yellow?logo=huggingface)](https://huggingface.co/BGI-HangzhouAI/Genos-m)
 [![Technical Report](https://img.shields.io/badge/Technical%20Report-PDF-blue)](paper/Genos-m.pdf)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![visitors](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FlinnnnCTCT%2FGenos-m&label=visitors&icon=github&color=%236ec044&message=&style=flat&tz=UTC)](https://hitscounter.dev/)
