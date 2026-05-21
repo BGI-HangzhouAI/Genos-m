@@ -389,7 +389,7 @@ pip install torch transformers accelerate
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-model_id = "BGI-HangzhouAI/Genos-m-4.7B"
+model_id = "BGI-HangzhouAI/Genos-m"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 model = AutoModel.from_pretrained(
@@ -425,7 +425,7 @@ print(embedding.shape)
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_id = "BGI-HangzhouAI/Genos-m-4.7B"
+model_id = "BGI-HangzhouAI/Genos-m"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(
