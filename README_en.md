@@ -319,7 +319,7 @@ These results indicate that the model contains separable internal features assoc
 
 | Model | Total parameters | Hugging Face | Megatron ckpt |
 | --- | --- | --- | --- |
-| Genos-m | 4.7B | [Genos-m-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m) | [Genos-m-Megatron-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron) |
+| Genos-m | 4.7B | [Genos-m](https://huggingface.co/BGI-HangzhouAI/Genos-m) | [Genos-m-Megatron](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron) |
 
 <a id="hardware-and-performance"></a>
 
