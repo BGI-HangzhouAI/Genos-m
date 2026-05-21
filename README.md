@@ -363,7 +363,7 @@ $$
 
 | 模型 | 总参数 | Hugging Face | Megatron ckpt |
 | --- | --- | --- | --- |
-| Genos-m-4.7B | 4.7B | [Genos-m-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-4.7B) | [Genos-m-Megatron-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron-4.7B) |
+| Genos-m | 4.7B | [Genos-m](https://huggingface.co/BGI-HangzhouAI/Genos-m) | [Genos-m-Megatron](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron) |
 
 <a id="hardware-and-performance"></a>
 
