@@ -4,7 +4,7 @@
 
 ![genos_m_concept_v1.png](images/genos_m_concept_v1.png)
 
-[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Genos--m--4.7B-yellow?logo=huggingface)](https://huggingface.co/BGI-HangzhouAI/Genos-m-4.7B)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Genos--m-yellow?logo=huggingface)](https://huggingface.co/BGI-HangzhouAI/Genos-m)
 [![Technical Report](https://img.shields.io/badge/Technical%20Report-PDF-blue)](paper/Genos-m.pdf)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![visitors](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FBGI-HangzhouAI%2FGenos-m&label=visitors&icon=github&color=%236ec044&message=&style=flat&tz=UTC)](https://hitscounter.dev/)
@@ -319,7 +319,7 @@ These results indicate that the model contains separable internal features assoc
 
 | Model | Total parameters | Hugging Face | Megatron ckpt |
 | --- | --- | --- | --- |
-| Genos-m-4.7B | 4.7B | [Genos-m-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-4.7B) | [Genos-m-Megatron-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron-4.7B) |
+| Genos-m | 4.7B | [Genos-m-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m) | [Genos-m-Megatron-4.7B](https://huggingface.co/BGI-HangzhouAI/Genos-m-Megatron) |
 
 <a id="hardware-and-performance"></a>
 
@@ -345,7 +345,7 @@ pip install torch transformers accelerate
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-model_id = "BGI-HangzhouAI/Genos-m-4.7B"
+model_id = "BGI-HangzhouAI/Genos-m"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 model = AutoModel.from_pretrained(
@@ -379,7 +379,7 @@ print(embedding.shape)
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_id = "BGI-HangzhouAI/Genos-m-4.7B"
+model_id = "BGI-HangzhouAI/Genos-m"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(
