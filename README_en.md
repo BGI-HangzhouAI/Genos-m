@@ -31,6 +31,7 @@
   * [Use-Case Overview](#use-case-overview)
   * [Case 1: Building a Microbiome Self-Supervised Learning Model with Genos-m Genome Representations](#case-1-microbiome-ssl)
   * [Case 2: A Metagenomic Individual Latent-Space Library](#case-2-metagenome-latent-space)
+* [Citation](#citation)
 * [License](#license)
 * [Contact](#contact)
 
@@ -534,6 +535,22 @@ Geographic-origin discrimination and enterotype evaluation show that, with only 
 #### Scope and Limitations
 
 Low-depth Genos-m sample-level representations are suitable for rapid assessment of multi-source metagenomic sample collections. With a small number of reads, they can define a sample embedding space for similarity comparison, major group-structure identification, and assisted flagging of outlier samples, batch effects, sample mixing, or potential contamination risks. These representations can also serve as sample-level input features for downstream statistical analyses or machine-learning models. This case evaluates sample-level representation capability, not taxonomic abundance estimation. Conventional taxonomic profiling remains the standard procedure for obtaining interpretable species composition and relative-abundance profiles. Genos-m provides a complementary sample-level latent representation that captures sequence-level sample information beyond conventional abundance profiles.
+
+<a id="citation"></a>
+
+## Citation
+
+```bibtex
+@article{fang2026genos_m,
+  title = {{Genos-m}: a foundation model for human-associated microbial genomes},
+  author = {Genos Team, Hangzhou, China},
+  journal = {bioRxiv},
+  year = {2026},
+  doi = {10.64898/2026.05.21.726868},
+  url = {https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1},
+  note = {Preprint}
+}
+```
 
 <a id="license"></a>
 

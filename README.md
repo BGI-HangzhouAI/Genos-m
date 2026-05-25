@@ -47,6 +47,8 @@
 
     *   [案例 2：宏基因组个体隐空间库](#case-2-metagenome-latent-space)
 
+*   [引用](#citation)
+
 *   [许可证](#license)
 
 *   [联系我们](#contact)
@@ -578,6 +580,22 @@ print(prompt + generated_sequence)
 #### 适用场景与边界
 
 Genos-m 低深度样本级表征适用于多来源宏基因组样本集的快速评估，可基于少量 reads 构建样本嵌入空间，用于样本相似性比较、主要分组结构识别，并辅助标记离群样本、批次效应、混样或潜在污染等质量风险；该表征也可作为后续统计分析或机器学习模型的样本级输入特征。需要说明的是，本案例评估的是样本级表征能力，而非分类群丰度估计能力；传统 taxonomic profiling 仍是获得可解释物种组成和相对丰度谱的标准流程，Genos-m 则提供一种补充性的样本级 latent representation，用于提供传统丰度谱之外的序列层面样本信息。
+
+<a id="citation"></a>
+
+## 引用
+
+```bibtex
+@article{fang2026genos_m,
+  title = {{Genos-m}: a foundation model for human-associated microbial genomes},
+  author = {Genos Team, Hangzhou, China},
+  journal = {bioRxiv},
+  year = {2026},
+  doi = {10.64898/2026.05.21.726868},
+  url = {https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1},
+  note = {Preprint}
+}
+```
 
 <a id="license"></a>
 
